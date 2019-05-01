@@ -1,0 +1,67 @@
+.box .top{padding:20px;width:100%;height:33%;background:#fff;position:relative;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.box .top .tabs{width:auto;height:30px;position:absolute;top:-30px;left:0;}
+.box .top .tabs a{float:left;display:block;width:175px;height:30px;text-align:center;line-height:30px;background:#dbdde1;border-top-left-radius:5px;border-top-right-radius:5px;margin-right:10px;font-size:12px;color:#666;  }
+.box .top .tabs a.current{background:#fff;color:#1c7dfa;}
+.box .top .btns a{float:left;display:block;width:90px;height:30px;border:1px solid #ddd;background:#f7f7f7;border-radius:5px;margin-right:10px;text-align:center;line-height:28px;color:#333;font-size:12px;}
+
+.box .top .info ul li{float:left;width:calc(100% / 3);margin-top:20px;padding-right:20px;overflow:hidden;}
+.box .top .info ul li span{float:left;font-size:14px;color:#808080;width:5rem;line-height:30px;text-align:right;padding-right:10px;}
+.box .top .info ul li > div{float:left;width:calc(90% - 5rem);height:30px;border:1px solid #e1e6eb;border-radius:5px;}
+.box .top .info ul li > div input{display:block;width:100%;line-height:28px;background:none;padding:0 10px;}
+.box .top .info ul li > div select{width:100%;height:28px;line-height:28px;padding:0 10px;}
+
+.box .top .search{margin-top:50px;padding:0 30px 0 20px;}
+.box .top .search .fl{font-size:12px;color:#999;}
+.box .top .search .fl span:first-child{color:#e60012;margin-right:20px;}
+.box .top .search .fr > input[type=submit]{width:70px;height:30px;border-radius:5px;text-align:center;font-size:12px;cursor:pointer;margin-right:10px;}
+.box .top .search .fr > input[type=submit]:nth-of-type(1){background:#1c7dfa;line-height:30px;color:#fff;}
+.box .top .search .fr > input[type=submit]:nth-of-type(2){background:none;border:1px solid #1c7dfa;line-height:28px;color:#1c7dfa;}
+.box .top .search .fr > span{font-size:14px;color:#666;}
+.box .top .search .fr > span i{margin-right:5px;}
+
+.box .bottom{width:100%;height:65%;background:#fff;padding:20px;margin-top:1%;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.box .bottom .remind{width:100%;height:auto;background:#fcf8e2;border:1px solid #fbeccb;padding:15px 0 15px 2%;font-size:14px;color:#f68300;}
+.box .bottom .remind:before{content:'';display:inline-block;width:14px;height:14px;background:url(../images/icon_5.png)no-repeat center/contain;margin-right:5px;vertical-align:middle;}
+
+.content{margin-top:10px;}
+.content table{width:100%;border:1px solid #e1e6eb;border-collapse:collapse;}
+.content table tr th{border:1px solid #e1e6eb;text-align:center;background:#f4f5f9;font-size:16px;color:#666;font-weight:500;height:40px;}
+.content table tr th:first-child input[type=checkbox]{appearance:none; -moz-appearance:none; -webkit-appearance:none;width:14px;height:14px;border:1px solid #bfbfbf;background:none;cursor:pointer;}
+
+.content table tr th:first-child input[type=checkbox]:checked{width:14px;height:14px;background:#52d669;}
+
+.content table tr td{border:1px solid #e1e6eb;text-align:center;font-size:14px;color:#999;height:50px;}
+.content table tr td:first-child input[type=checkbox]{appearance:none; -moz-appearance:none; -webkit-appearance:none;width:14px;height:14px;border:1px solid #c1c1c1;border-radius:50%;}
+.content table tr td:first-child input[type=checkbox]:checked{background:url(../images/icon_6.png)no-repeat center/contain;border:none;}
+
+
+.content table tr th:nth-child(1){width:4%;}
+.content table tr th:nth-child(2){width:7%;}
+.content table tr th:nth-child(3){width:8%;}
+.content table tr th:nth-child(4){width:8%;}
+.content table tr th:nth-child(5){width:20%;}
+.content table tr th:nth-child(6){width:8%;}
+.content table tr th:nth-child(7){width:15%;}
+.content table tr th:nth-child(8){width:20%;}
+
+.page{width:auto;height:auto;float:right;margin-top:50px;}
+.page > a{display:block;float:left;padding:10px;margin-right:10px;font-size:14px;color:#666;}
+.page > a:not(:nth-of-type(12)){background:#f5f5f6;}
+.page > a:hover{color:#fff;background:#1c7dfa;}
+.page > div{float:left;line-height:30px;font-size:14px;color:#666;}
+.page > div input{display:inline-block;border:1px solid #e1e6eb;width:30px;height:30px;line-height:30px;vertical-align:middle;text-align:center;line-height:28px;}
+
+
+#flowDistribution{width: 95%;height: 480px;margin: auto;box-shadow: -5px 5px 10px #eee;}
+
+
+
+
+
+
+
+
+
+
+
+

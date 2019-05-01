@@ -1,0 +1,54 @@
+.traffic-main .depwd{width:955px;}
+.traffic-main .bot{width:100%;height:730px;background-color: #fff;}
+.traffic-main .t-text{font-size: 14px;color: #fff;line-height: 60px;margin-left:25px;}
+.traffic-main .traffic-close{width:60px;height:60px;font-size: 14px;color: #fff;line-height: 60px;text-align: center;background-color: #006af2;}
+.traffic-main .traffic-close:hover{cursor: pointer;}
+.traffic-main .traffic-cet{width:95%;margin: 0 auto;padding-top: 20px;margin-bottom: 50px;}
+.traffic-main .red{color: #f35857;font-size: 14px;height: 30px;line-height: 30px;margin-bottom: 25px;padding-left: 25px;background-color:#ffeded; }
+.traffic-main .red i{margin-right:10px;}
+.traffic-main .red span{display: block;font-size: 14px;height: 30px;line-height: 30px;float: right;padding-right:10px;cursor: pointer;}
+.traffic-main .traffic-cet p{line-height: 30px;margin-bottom: 20px;width: 50%;float:left;height: 30px;}
+.traffic-main .traffic-cet p span{text-align:left;}
+.traffic-main .traffic-cet p:nth-child(2) input{float: right;}
+.traffic-main .traffic-cet input[type=text]{width: 330px;height: 30px;border: 1px solid #999;color:#999;padding-left: 10px;border-radius: 5px;}
+.traffic-main .traffic-cet select{width: 330px;height: 30px;border: 1px solid #999;color:#999;padding-left: 10px;border-radius: 5px;float: left;}
+.traffic-main .button{height: 30px;width: 100%}
+.traffic-main .traffic-qx{display: block;height:30px;width: 90px;color:#1c7dfa;border: 1px solid #1c7dfa;border-radius: 5px;text-align: center;line-height: 30px;}
+.traffic-main .traffic-qx:hover{cursor: pointer;}
+.traffic-main .traffic-qr{display: block;height:30px;width: 90px;color:#fff;background-color:#1c7dfa;border-radius: 5px;margin-left: 30px;text-align: center;line-height: 30px;}
+.traffic-main .traffic-qr:hover{cursor: pointer;}
+.traffic-main .data{width: 95%;margin: 0 auto;margin-bottom: 10px;}
+.traffic-main .data a{display: block;height:30px;width: 90px;border: 1px solid #ccc;border-radius: 5px;text-align: center;line-height: 30px;float: left;}
+.traffic-main .data span{color:#ccc;padding-left: 15px;line-height: 30px;display: block;float: left;}
+
+.traffic-main .residents-table table{width:100%;border-collapse:collapse;}
+.traffic-main .residents-table table tr{height: 40px;}
+.traffic-main .residents-table table tr th{font-size:14px;font-weight:500;text-align:center;background:#e5f0ff;}
+.traffic-main .residents-table table tr td{text-align: center;border-bottom: 1px solid #ccc;font-size:12px;}
+.traffic-main .residents-table table tr a{color:#1c7dfa;}
+.traffic-main .traffic-ckb input{display:none;}
+.traffic-main .traffic-ckb input+label{display: inline-block;border-radius: 50%;border: 1px #aaa solid;width: 16px;height: 16px;cursor: pointer;}
+.traffic-main .traffic-ckb input:checked+label{background-image:url(../images/icon-gou.png);background-size: cover;border: none;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

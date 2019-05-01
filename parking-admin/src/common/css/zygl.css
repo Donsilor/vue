@@ -1,0 +1,86 @@
+.box{
+    padding:20px 40px 30px 40px;
+    background: -webkit-linear-gradient(#57586d, #4190a8); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#57586d, #4190a8); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#57586d, #4190a8); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#57586d, #4190a8); /* 标准的语法 */
+}
+.position{font-size:16px;color:#e3e3e5;}
+.position a{font-size:16px;color:#fff;margin-right:10px;}
+.position span{font-size:16px;color:#e3e3e5;margin-left:10px;}
+
+.box .content{width:100%;height:97%;margin-top:20px;position:relative;}
+.box .content .left{width:250px;height:100%;background:rgba(0,0,0,.2);padding-top:3%;position:absolute;top:0;left:0;}
+.box .content .left .add{width:90px;height:30px;border-radius:5px;background:#1c7dfa;margin:auto;}
+.box .content .left .add a{display:block;font-size:14px;color:#fff;text-align:center;line-height:30px;}
+.box .content .left .btns{padding-top:15%;max-height: 700px;overflow-y: scroll;}
+.box .content .left .btns::-webkit-scrollbar{width: .5rem;background-color: rgba(0,0,0,.2);}
+.box .content .left .btns .blockDiv{margin-bottom: 1.2rem;}
+.box .content .left .btns .btn_1{text-align:right;padding-right:20%;margin-bottom:15px;}
+.box .content .left .btns .btn_1 a{display:inline-block;width:18px;height:18px;margin-left:5px;vertical-align:middle;}
+.box .content .left .btns .btn_1 a img{width:100%;height:100%;}
+.box .content .left .btns .btn_1 .b_title{font-size:14px;color:#fff;line-height:18px;margin-left:5px;}
+.box .content .left .btns .btn_1 input{width:18px;height:18px;border:1px solid #ccc;background:none;vertical-align:middle;margin-left:5px;}
+.box .content .left .btns .btn_1 .icon{display:inline-block;width:14px;height:12px;vertical-align:middle;cursor: pointer;}
+.box .content .left .btns .btn_1 .icon img{width:100%;height:100%;transition: all .3s;}
+.box .content .left .btns ul{text-align:right;display: none;}
+.box .content .left .btns ul li{padding-right:20%;margin-bottom:15px;}
+.box .content .left .selectDiv{margin-bottom: 1.5rem;}
+.box .content .left .btns ul li a{display:inline-block;width:14px;height:14px;margin-left:5px;vertical-align:middle;}
+.box .content .left .btns ul li a img{width:100%;height:100%;}
+.box .content .left .btns ul li .b_title{font-size:12px;color:#fff;line-height:18px;margin-left:5px;width:20%;display:inline-block;text-align:left;}
+.box .content .left .btns ul li input{width:14px;height:14px;border:1px solid #ccc;background:none;vertical-align:middle;margin-left:5px;}
+
+
+.box .content .right{float:left;width:calc(99% - 250px);height:100%;background:rgba(0,0,0,.2);padding-top:3%;position:absolute;right:0;top:0;}
+.box .content .right > div{overflow:hidden;margin-bottom:25px;}
+.box .content .right > div .name{float:left;width:20%;text-align:right;font-size:16px;color:#fff;line-height:30px;}
+.box .content .right > div .role{float:left;width:350px;height:30px;margin-left:15px;border:1px solid #fff;border-radius:5px;}
+.box .content .right > div .role input[type=text]{display:block;width:100%;height:100%;background:none;font-size:14px;color:#fff;padding-left:5%;}
+.box .content .right > div:first-child .role{background:url(../images/icon_12.png)no-repeat 95% center;}
+.box .content .right > div:nth-child(4) .role{border:0;line-height:30px;}
+.box .content .right > div:nth-child(4) .role input[type=radio]{width:16px;height:16px;border:1px solid #fff;border-radius:50%;
+    -webkit-appearance:none; -moz-appearance: none; appearance: none;vertical-align:middle;margin-right:10px;}
+.box .content .right > div:nth-child(4) .role input[type=radio]:checked{border:none;background:url(../images/icon_13.png)no-repeat center;width:16px;height:16px;border-radius:50%;overflow:hidden;}
+.box .content .right > div:nth-child(4) .role label{font-size:14px;color:#fff;margin-right:80px;}
+.box .content .right > div:nth-child(5) .role{border:0;}
+.box .content .right > div:nth-child(5) .role .bottom_line{width:350px;height:2px;background:#132336;margin-top:15px;position:relative;}
+.box .content .right > div:nth-child(5) .role .left_line{position:absolute;left:0;top:-4px;background:#fff;width:1px;height:10px;}
+.box .content .right > div:nth-child(5) .role .right_line{position:absolute;right:0;top:-4px;background:#132336;width:1px;height:10px;}
+.box .content .right > div:nth-child(5) .role .top_line{position:absolute;top:0;left:0;width:20%;height:2px;background:#fff;}
+.box .content .right > div:nth-child(5) .role .top_line i{position:absolute;width:12px;height:12px;background:#fff;border-radius:50%;top:-5px;right:0;cursor:pointer;}
+
+
+.box .content .right > div:nth-child(6) .role{width:auto;height:auto;border:0;}
+.box .content .right > div:nth-child(6) .role textarea{resize:none;width:350px;height:100px;border:1px solid #fff;border-radius:5px;background:none;padding:10px 15px;font-size:14px;color:#fff;}
+.box .content .right > .btn{padding-left:22%;}
+.box .content .right > .btn a{float:left;display:block;font-size:14px;color:#fff;width:90px;height:30px;border-radius:5px;margin-right:40px;text-align:center;}
+.box .content .right > .btn a:nth-child(1){background:#1c7dfa;color:#fff;line-height:30px;}
+.box .content .right > .btn a:nth-child(2){border:1px solid #fff;line-height:28px;}
+.box .content .right > .btn a:nth-child(3){background:#f35857;line-height:30px;}
+
+
+
+
+
+/*更改placeholder颜色*/
+input::-webkit-input-placeholder{ /*WebKit browsers*/  color: #b0c2cd;}
+input::-moz-input-placeholder{ /*Mozilla Firefox*/  color: #b0c2cd;}
+input::-ms-input-placeholder{ /*Internet Explorer*/  color: #b0c2cd;}
+
+textarea::-webkit-input-placeholder{ /*WebKit browsers*/  color: #b0c2cd;}
+textarea::-moz-input-placeholder{ /*Mozilla Firefox*/  color: #b0c2cd;}
+textarea::-ms-input-placeholder{ /*Internet Explorer*/  color: #b0c2cd;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.ap-main .depwd{width:671px;}
+.ap-main .bot{width:100%;height:450px;background-color: #fff;}
+.ap-main .t-text{font-size: 14px;color: #fff;line-height: 60px;margin-left:25px;}
+.ap-main .ap-close{width:60px;height:60px;font-size: 14px;color: #fff;line-height: 60px;text-align: center;background-color: #006af2;}
+.ap-main .ap-close:hover{cursor: pointer;}
+.ap-main .ap-cet{width:95%;margin: 0 auto;padding-top:50px;margin-bottom: 50px;}
+.ap-main .red{color: #f35857;font-size: 14px;height: 30px;line-height: 30px;margin-bottom: 25px;padding-left: 25px;background-color:#ffeded; }
+.ap-main .red i{margin-right:10px;}
+.ap-main .red span{display: block;font-size: 14px;height: 30px;line-height: 30px;float: right;padding-right:10px;cursor: pointer;}
+.ap-main .ap-cet p{line-height: 30px;float:left;height: 30px;}
+.ap-main .ap-cet p:first-child{width:60%;}
+.ap-main .ap-cet p:last-child{width:40%;}
+.ap-main .ap-cet p span{text-align:left;}
+.ap-main .ap-cet input[type=text]{width:200px;height: 30px;border: 1px solid #999;color:#999;padding-left: 10px;border-radius: 5px;float: left;}
+.ap-main .button{height: 30px;width: 100%}
+.ap-main .ap-clear{display: block;height:30px;width: 90px;color:#1c7dfa;border: 1px solid #1c7dfa;border-radius: 5px;text-align: center;line-height: 30px;}
+.ap-main .ap-search{display: block;height:30px;width: 90px;color:#fff;background-color:#1c7dfa;border-radius: 5px;margin-left: 30px;text-align: center;line-height: 30px;}
+.ap-main .data{width: 95%;margin: 0 auto;margin-bottom: 10px;}
+.ap-main .data a{display: block;height:30px;width: 90px;border: 1px solid #ccc;border-radius: 5px;text-align: center;line-height: 30px;float: left;}
+.ap-main .data span{color:#ccc;padding-left: 15px;line-height: 30px;display: block;float: left;}
+
+.ap-main .residents-table table{width:100%;border-collapse:collapse;}
+.ap-main .residents-table table tr{height: 40px;}
+.ap-main .residents-table table tr th{font-size:14px;font-weight:500;text-align:center;background:#e5f0ff;}
+.ap-main .residents-table table tr td{text-align: center;border-bottom: 1px solid #ccc;font-size:12px;}
+.ap-main .residents-table table tr a{color:#1c7dfa;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

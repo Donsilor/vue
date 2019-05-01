@@ -1,0 +1,83 @@
+.box{
+    padding:20px 40px 30px 40px;
+    background: -webkit-linear-gradient(#57586d, #4190a8); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#57586d, #4190a8); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#57586d, #4190a8); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#57586d, #4190a8); /* 标准的语法 */
+}
+.position{font-size:16px;color:#e3e3e5;}
+.position a{font-size:16px;color:#fff;margin-right:10px;}
+.position span{font-size:16px;color:#e3e3e5;margin-left:10px;}
+
+.content{width:100%;height:97%;margin-top:15px;position:relative;}
+.content .search{width:100%;}
+.search ul{width: 100%;height: 78px;margin-bottom: 10px;;}
+.search ul li{width: calc((100% - 40px) / 5);height: 78px;margin-right:10px;float: left;background:rgba(0,0,0,.2);padding: 20px 10px;}
+.search ul li:last-child{margin-right:0;}
+.search ul li div:first-child{width: 40px;height: 40px;text-align: center;line-height: 40px;color: #fff;font-size: 14px;}
+.search .blue{background:#1c7df9;}
+.search .red{background:#e83b34;}
+.search .org{background:#f39800;}
+.search .gre{background:#52d669;}
+.search .pur{background:#a35ff4;}
+.search ul li div:last-child{height: 100%;line-height: 40px;color: #fff;padding-left: 10px;}
+.search ul li div:last-child>p{line-height: 20px;font-size: 14px;}
+
+
+
+.centerDiv{height: 45%;margin-bottom: 10px;}
+.centerDiv > div.fl{width: 55%;}
+.centerDiv > div.fr{width: 43%;}
+
+.bottomDiv{height: 40%;}
+.bottomDiv > div.fl{width: 68%;}
+.bottomDiv > div.fr{width: 30%;}
+
+.centerDiv > div > div:not(.titleBar),
+.bottomDiv > div > div:not(.titleBar){height: 100%;}
+
+.centerDiv > div,
+.bottomDiv > div{height: 100%;background-color: rgba(33,64,89,.8);position: relative;}
+.centerDiv > div .absTitleBar,
+.bottomDiv > div .absTitleBar{position: absolute;top: 0;left: 0;right: 0;height: 40px;background-color: #324359;border-bottom: 1px solid #466282;}
+/* 
+.centerDiv > div .titleBar{background: url("../images/mc.png") no-repeat 15px center #324359;}
+.bottomDiv > div.fr .titleBar{background: url("../images/mc.png") no-repeat 15px center #324359;}
+
+.bottomDiv > div.fl .titleBar{font: 16px/40px 'Microsoft YaHei';background: url("../images/mc.png") no-repeat 15px center #324359;padding-left: 45px;color: #fff;border-bottom: 1px solid #466282;} */
+
+.distributionTable{width: 100%;}
+.distributionTable thead td{color: #fff;}
+.distributionTable td{height: 40px;text-align: center;color: #a9b5bd;border-bottom: 1px solid #4589a1;}
+.distributionTable td:nth-of-type(1){width: 22%;}
+.distributionTable td:nth-of-type(2){width: 21%;}
+.distributionTable td:nth-of-type(3){width: 19%;}
+.distributionTable td:nth-of-type(4){width: 38%;}
+.distributionTable td .green{color: #52d669;}
+.distributionTable td .red{color: #ff3a2f;}
+.distributionTable td .progress{display: inline-block;width: 50%;height: 10px;margin-left: 1rem;}
+.distributionTable td .progress i{display: block;height: 100%;background-color: #52d669;}
+
+
+.admin_titleDiv{position: absolute;top: 20px;width: 100%;text-align: center;color: #fff;}
+.admin_titleDiv .title{font: 18px/1 'Microsoft YaHei';}
+.admin_titleDiv .subTitle{font: 14px/2.5 'Microsoft YaHei';}
+
+
+.admin_content{height: 92%;margin-top: 4.5%;}
+
+.admin_content .admin_flowDistribution{width: 100%;height: 80%;background-color: #273d52;position: relative;padding-top: 20px;}
+#admin_flowDistribution{height: 100%;}
+
+/* 
+.admin_content .admin_flowDistribution .absTitleBar{position: absolute;top: 0;left: 0;right: 0;height: 60px;background: url("../images/mc.png") no-repeat 15px center #324359;border-bottom: 1px solid #466282;} */
+
+#subsidiary{height: 12%;background-color: #285462;margin-top: 2%;}
+
+
+
+
+
+
+
+
